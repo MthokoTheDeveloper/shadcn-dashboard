@@ -1,9 +1,11 @@
+import PageTitle from "@/components/ui/PageTitle";
 
 
 export default function Home() {
   return (
-    <div>
-      Home Page
+    <div className="flex flex-col gap-5 w-full">
+      <PageTitle title="Dashboard"/>
+      
     </div>
   );
 }
