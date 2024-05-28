@@ -12,7 +12,7 @@ type Payment = {
   order: string
 }
 
-export const columns: ColumnDef<Payment>[] = [
+const columns: ColumnDef<Payment>[] = [
   
 
   {
@@ -45,7 +45,7 @@ export const columns: ColumnDef<Payment>[] = [
   },
 ]
 
-export const data: Payment[] = [
+const data: Payment[] = [
   {
     order: "ORD001",
     status: "Pending",

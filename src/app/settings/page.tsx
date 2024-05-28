@@ -12,7 +12,7 @@ export interface Settings{
  
 }
 
-export const columns: ColumnDef<Settings>[] = [
+ const columns: ColumnDef<Settings>[] = [
   
   {
     accessorKey: "category",
@@ -24,7 +24,7 @@ export const columns: ColumnDef<Settings>[] = [
   },
 ]
 
-export const data: Settings[] = [
+ const data: Settings[] = [
   {
     category: "Account",
     value: true, // Boolean value indicating account status (active/inactive)

@@ -9,7 +9,7 @@ import {
     ShoppingCart,
     UsersRound,
   } from "lucide-react"
-import { Button } from './Button'
+import { Button } from '@/components/ui/Button'
 import {
   
   useWindowWidth,
