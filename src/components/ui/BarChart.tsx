@@ -6,51 +6,51 @@ type Props = {}
 const data = [
   {
     name: "Jan",
-    value: Math.floor(Math.random() * 1000) + 1, // Random value between 1 and 1000
+    total: Math.floor(Math.random() * 5000) + 1000, // Random total between 1000 and 5000
   },
   {
     name: "Feb",
-    value: Math.floor(Math.random() * 1000) + 1, // Random value between 1 and 1000
+    total: Math.floor(Math.random() * 5000) + 1000, // Random total between 1000 and 5000
   },
   {
     name: "Mar",
-    value: Math.floor(Math.random() * 1000) + 1, // Random value between 1 and 1000
+    total: Math.floor(Math.random() * 5000) + 1000, // Random total between 1000 and 5000
   },
   {
     name: "Apr",
-    value: Math.floor(Math.random() * 1000) + 1, // Random value between 1 and 1000
+    total: Math.floor(Math.random() * 5000) + 1000, // Random total between 1000 and 5000
   },
   {
     name: "May",
-    value: Math.floor(Math.random() * 1000) + 1, // Random value between 1 and 1000
+    total: Math.floor(Math.random() * 5000) + 1000, // Random total between 1000 and 5000
   },
   {
     name: "Jun",
-    value: Math.floor(Math.random() * 1000) + 1, // Random value between 1 and 1000
+    total: Math.floor(Math.random() * 5000) + 1000, // Random total between 1000 and 5000
   },
   {
     name: "Jul",
-    value: Math.floor(Math.random() * 1000) + 1, // Random value between 1 and 1000
+    total: Math.floor(Math.random() * 5000) + 1000, // Random total between 1000 and 5000
   },
   {
     name: "Aug",
-    value: Math.floor(Math.random() * 1000) + 1, // Random value between 1 and 1000
+    total: Math.floor(Math.random() * 5000) + 1000, // Random total between 1000 and 5000
   },
   {
     name: "Sep",
-    value: Math.floor(Math.random() * 1000) + 1, // Random value between 1 and 1000
+    total: Math.floor(Math.random() * 5000) + 1000, // Random total between 1000 and 5000
   },
   {
     name: "Oct",
-    value: Math.floor(Math.random() * 1000) + 1, // Random value between 1 and 1000
+    total: Math.floor(Math.random() * 5000) + 1000, // Random total between 1000 and 5000
   },
   {
     name: "Nov",
-    value: Math.floor(Math.random() * 1000) + 1, // Random value between 1 and 1000
+    total: Math.floor(Math.random() * 5000) + 1000, // Random total between 1000 and 5000
   },
   {
     name: "Dec",
-    value: Math.floor(Math.random() * 1000) + 1, // Random value between 1 and 1000
+    value: Math.floor(Math.random() * 5000) + 1, // Random value between 1 and 5000
   },
 ];
 
@@ -58,7 +58,7 @@ const data = [
 export default function BarChart({}: Props) {
   return (
     
-      <ResponsiveContainer width={'100%'} height={'100%'}>
+      <ResponsiveContainer width={'100%'} height={350}>
           <BarGraph data={data}>
           <XAxis 
           dataKey={"name"}
